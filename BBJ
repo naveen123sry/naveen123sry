@@ -93,7 +93,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : ,🔴RED🔴")
                 else:
-                    print(newperiod+1," : ,🔴RED🔴")
+                    print(newperiod+1," : ,🟢GREEN🟢")
             else:
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢")
@@ -106,12 +106,12 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": ,🔴RED🔴")
                 else:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
                     print(newperiod+1,": ,🟢GREEN🟢")
                 else:
-                    print(newperiod+1,": ,🟢GREEN🟢")
+                    print(newperiod+1,": ,🔴RED🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -153,14 +153,14 @@ if(expirydate>today):
             period=2
             hero()
     else:
-        banner='figlet RXCE V 6.0'
+        banner='figlet RXCE V 2.0'
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         #print(" sept 2022, 11:00 AM- 11:30 AM")
         #print(" sept 2022, 02:00 PM- 02:30 PM")
         #print(" Sept 2022, 05:30 PM- 06:00 PM")
-        print(" sept 2022, 08:00 am- 08:30 am")
+        print(" sept 2022, 08:00 am- 10:30 am")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")

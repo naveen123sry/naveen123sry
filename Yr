@@ -93,7 +93,21 @@ def hero():
         last2=str(current)[-2:]
         #samjha_maadarchod=lawde_time_pe_khel(last2)
         if(newperiod%2==0):
-          
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1," : 💥💥🔴RED🔴💥💥")
+            else:
+                print(newperiod+1,"  : 💥💥🟢GREEN🟢💥💥")
+        else:
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1,"   : 💥💥🔴RED🔴💥💥")
+            else:
+                print(newperiod+1,"   : 💥💥🟢GREEN🟢💥💥")
+        newperiod+=1
+        numbers.append(current)
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
             y=False
         if (len(numbers)>11):
             clear()
@@ -137,7 +151,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         #print("31st Aug 2021, 11:00 AM- 11:30 AM")
         #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("23rd Sept 2022, 07:30 AM- 08:30 AM")
+        print("23rd Sept 2021, 04:00 PM- 04:30 PM")
         #print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
@@ -153,6 +167,12 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
+    code="RXCE1"
+    code1="RXCE2"
+    code2="RXCE3"
+    test="BVCFT43"
+    night="NSMNJUI13"
+    nextday="RXCE"
     banner='figlet RXCEV5.0|lolcat'
     rava=0
     now = datetime.datetime.now()
@@ -164,11 +184,11 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=292
+            rava=291
     elif(now>Third and now<Thirdend):
-            rava=352
+            rava=351
     elif(now>Final and now<Finalend):
-            rava=412
+            rava=411
     system(banner)
     print(f"{neon}*--------*--------*-------*---------*---------*")
     print("Your hack has expired--- Please contact")
@@ -195,3 +215,59 @@ else:
         print("If you have already paid to above UPI")
         print(f"{neon}Enter Your Activation Code Or Upi Reference for Opening Hack")
         bhai=input(": ")
+        if(bhai==code or bhai==test or bhai==code1 or bhai==code2):
+            clear()
+            print("You have bought hack for 15 day")
+            print(f"{purple}---------------Your play time----------------")
+            print("15th-2nd MAR 2022, 02:30 PM- 03:00 PM")
+            print("15th-2nd MAR 2022, 05:30 PM- 06:00 PM")
+            print("15th-2nd MAR 2022, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print(f"If you think it is an {red}error {yellow}contact {green}me ")
+            print(f"{neon}On Telegram {red}@RXCE_LOVER")
+            print("wait.... starting....")
+            time.sleep(20)
+            period=rava
+            hero()
+            #print("Today Server is off RXCE try tomorrow ")
+            #rint(" of town, Tomorrow It will work as usual.")
+            #print(" Thank You!!")
+            #rint("To all the weekly members next week, cost will be  ")
+            #print(" 4000 INR , because in this week 2 days off " )
+            #print("Thank You!! ")
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_LOVER")
+        elif(bhai==nextday):
+            clear()
+            banner='figlet RXCEV5.0|lolcat'
+            system(banner)
+            print("----------Your play time-----------")
+            print("11th-1st MAR 2022, 02:30 PM- 03:00 PM")
+            print("11th-1st MAR 2022, 06:00 PM- 06:30 PM")
+            print("11th-1st MAR 2022, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("wait.... starting....")
+            time.sleep(20)
+            period=rava
+            hero()
+            #period("Sorry too many people(>20) using hack in same time ")
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_LOVER")
+        elif(bhai==night):
+            clear()
+            print("----------Your play time-----------")
+            print("9th Dec 2021,  08:30 PM- 09:00 PM")
+            print("10th Dec 2021, 08:30 PM- 09:00 PM")
+            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("wait.... starting....")
+            time.sleep(20)
+            period=410
+            hero()
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_LOVER")
+        else:
+            clear()
+            banner='figlet RXCEV5.0|lolcat'
+            system(banner)
+            print("Incorrect Activation Code :")
+     

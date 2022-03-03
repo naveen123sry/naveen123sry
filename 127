@@ -66,14 +66,14 @@ def hero():
     newperiod=period
     banner='figlet RXCE V 2.0'
     thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17,21]
+    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
     i=1
     while(y):
         clear()
         system(banner)
         print("Contact me on telegram @RXCE_HACKER")
-        print("Enter ",newperiod,"  Price :")
+        print("Enter ",newperiod," Emerd Price :")
         current=input()
         current=int(current)
         chalo()
@@ -106,10 +106,10 @@ def hero():
                 if current in numbers:
                     print(newperiod-1,": ,🔴RED🔴")
                 else:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🟢GREEN🟢")
                 else:
                     print(newperiod-1,": ,🔴RED🔴")
         i=i+1
@@ -155,9 +155,9 @@ if(expirydate>today):
     else:
         banner='figlet RXCE V 2.0'
         print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
+        print("Hi! thanks for our ORIGINAL")
         print("----------Your play time-----------")
-        print(" sept 2022, 03:00 AM- 05:30 AM")
+        print(" sept 2022, 01:00 PM- 05:30 PM")
         #print(" sept 2022, 02:00 PM- 02:30 PM")
         #print(" Sept 2022, 05:30 PM- 06:00 PM")
         #print(" sept 2022, 08:00 PM- 10:30 PM")

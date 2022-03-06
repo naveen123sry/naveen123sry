@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022, 11, 20)
+expirydate = datetime.date(2022, 11, 13)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -24,7 +24,7 @@ def hero():
                     break
                 sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
-                time.sleep(0.30)
+                time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
 
         t = threading.Thread(target=animate)
@@ -65,15 +65,15 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE V 2.0'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
+    thisway=[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85,87,89,91,93,95,97,99]
+    thatway=[2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98]
     numbers=[]
     i=1
     while(y):
         clear()
         system(banner)
         print("Contact me on telegram @RXCE_HACKER")
-        print("Enter ",newperiod," Emerd Price :")
+        print("Enter ",newperiod,"  Price :")
         current=input()
         current=int(current)
         chalo()
@@ -91,27 +91,27 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod-1," : ,🔴RED🔴")
-                else:
                     print(newperiod+1," : ,🟢GREEN🟢")
+                else:
+                    print(newperiod+1," : ,🔴RED🔴")
             else:
                 if current in numbers:
-                    print(newperiod+1," : ,🟢GREEN🟢")
+                    print(newperiod+1," : ,🔴RED🔴")
                 else:
-                    print(newperiod-1," : ,🔴RED🔴")
+                    print(newperiod+1," : ,🟢GREEN🟢")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod-1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🔴RED🔴")
                 else:
                     print(newperiod+1,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
                     print(newperiod+1,": ,🟢GREEN🟢")
                 else:
-                    print(newperiod-1,": ,🔴RED🔴")
+                    print(newperiod+1,": ,🔴RED🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -155,12 +155,12 @@ if(expirydate>today):
     else:
         banner='figlet RXCE V 2.0'
         print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for our ORIGINAL")
+        print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        print(" sept 2022, 01:00 PM- 05:30 PM")
-        #print(" sept 2022, 02:00 PM- 02:30 PM")
-        #print(" Sept 2022, 05:30 PM- 06:00 PM")
-        #print(" sept 2022, 08:00 PM- 10:30 PM")
+        print(" sept 2021, 11:00 AM- 11:30 AM")
+        print(" sept 2022, 02:00 PM- 03:30 PM")
+        print(" Sept 2021, 05:30 PM- 06:00 PM")
+        print(" sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")

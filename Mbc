@@ -128,13 +128,13 @@ sum-getSum(current)
 
 if(sum%2==0):
 
-print(newperiod+1," : ðŸ", RED")
+print(newperiod+1," : ðŸ", GREEN")
 
 else:
 
 print(newperiod+1,"
 
-: ðŸŸ¢, GREEN")
+: ðŸŸ¢, RED")
 
 -Successfully hacked the server----------
 

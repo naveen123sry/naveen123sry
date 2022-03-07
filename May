@@ -12,13 +12,14 @@ from datetime import date
 
 expirydate = datetime.date(2022, 11, 28)
 #expirydate = datetime.date(2021, 8, 30)
+today=date.today()
 green="\033[3;32m"
 neon="\033[3;36m"
 nc="\033[00m"
 red="\033[3;31m"
 purple="\033[3;34m"
 yellow="\033[3;33m"
-voilet="\033[3;35m"
+voilet="\033[3;35m
 def hero():
 
     def chalo():
@@ -167,7 +168,7 @@ if(expirydate>today):
         print("19  Oct 2021, 11:00 AM- 11:30 AM")
         print("19  Oct 2021, 02:00 PM- 02:30 PM")
         print("19  Oct 2021, 05:30 PM- 06:00 PM")
-        print("19  Oct 2022, 06:00 PM- 07:30 PM")
+        print("19  Oct 2022, 06:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")

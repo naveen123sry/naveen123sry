@@ -170,7 +170,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print(" 11:00 PM- 11:35 PM")
         print(" 02:00 PM- 02:35 PM")
-        print(" 06:30 PM- 07:35 PM")
+        print(" 05:30 PM- 07:35 PM")
         print(" 09:00 PM- 09:35 PM")
         print(" 11:00 PM- 12:35 PM")
         print("Please play on the given time, and ")

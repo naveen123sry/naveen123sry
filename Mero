@@ -164,7 +164,7 @@ if(expirydate>today):
     elif(now>FFinal and now<FFinalend):
             period=460
             hero()
-    else:
+    True:
         banner='figlet RXCE 8.1|lolcat'
         print("Hi!! Thanks for buying Life time the hack")
         print("----------Your play time-----------")
@@ -173,8 +173,6 @@ if(expirydate>today):
         print(" 01:00 PM- 03:00 PM")
         print(" 03:30 PM- 05:00 PM")
         print(" 05:30 PM- 11:50 PM")
-        print("If you think it is an error contact")
-        print(" admin on telegram @Mr_kumar1 ")
     
 else:
     banner='figlet Thank '

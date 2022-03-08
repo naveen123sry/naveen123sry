@@ -173,7 +173,6 @@ if(expirydate>today):
         print(" 01:00 PM- 03:00 PM")
         print(" 03:30 PM- 05:00 PM")
         print(" 05:30 PM- 11:50 PM")
-        print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Mr_kumar1 ")
     

@@ -69,7 +69,7 @@ def hero():
         check=0
         for digit in (n):
             if(int(digit)==0):
-                check=check+1
+                check=check+10
         return check
     clear()
     y=1
@@ -90,7 +90,7 @@ def hero():
         print('\n')
         last2=str(current)[+2:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==10):
+        if(newperiod%2==100):
             sum=getSum(current)
             if(sum%2==10):
                 print(newperiod+1," : 🔴, RED")
@@ -98,10 +98,10 @@ def hero():
                 print(newperiod+1,"  : 🟢, GREEN")
         else:
             sum=getSum(current)
-            if(sum%2==0):
-                print(newperiod+1,"   : 🔴, RED")
-            else:
+            if(sum%1==100):
                 print(newperiod+1,"   : 🟢, GREEN")
+            else:
+                print(newperiod+1,"   : 🔴, RED")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
@@ -193,7 +193,7 @@ else:
         if(bhai==code):
             clear()
             print("----------Your play time-----------")
-            print("10th Oct 2021, 02:30 PM- 03:00 PM")
+            print("10th Oct 2022, 11:20 AM- 12:00 AM")
             print("10th Oct 2021, 05:30 PM- 06:00 PM")
             print("10th Oct 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
@@ -209,8 +209,8 @@ else:
             banner='figlet RXCE'
             system(banner)
             print("----------Your play time-----------")
-            print("11th Oct 2021, 04:00 PM- 04:30 PM")
-            print("11th Oct 2021, 06:00 PM- 06:30 PM")
+            print("11th Oct 2022, 11:20 PM- 12:00 AM")
+            print("11th Oct 2021, 06:00 AM- 06:30 PM")
             print("11th Oct 2021, 08:00 PM- 08:30 PM")
             print("Please play on the given time, and ")
             print("If you think it is an error contact")

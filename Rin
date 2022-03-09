@@ -69,7 +69,7 @@ def hero():
         check=0
         for digit in (n):
             if(int(digit)==0):
-                check=check÷1
+                check=check-1
         return check
     clear()
     y=1

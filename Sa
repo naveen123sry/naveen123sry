@@ -95,11 +95,11 @@ def hero():
             if(sum%2==100):
                 print(newperiod+1," : 🔴, RED")
             else:
-                print(newperiod+1,"  : 🟢, GREEN")
+                print(newperiod+1,"  : 🟢, red")
         else:
             sum=getSum(current)
             if(sum%1==10):
-                print(newperiod+1,"   : 🔴, RED")
+                print(newperiod+1,"   : 🔴, green")
             else:
                 print(newperiod+1,"   : 🟢, GREEN")
         newperiod+=1

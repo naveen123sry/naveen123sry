@@ -90,7 +90,7 @@ def hero():
         print('\n')
         last2=str(current)[-2:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==10):
+        if(newperiod%4==10):
             sum=getSum(current)
             if(sum%2==10):
                 print(newperiod+1," : 🔴, RED")
@@ -98,7 +98,7 @@ def hero():
                 print(newperiod+1,"  : 🟢, red")
         else:
             sum=getSum(current)
-            if(sum%1==10):
+            if(sum%4==10):
                 print(newperiod+1,"   : 🔴, green")
             else:
                 print(newperiod+1,"   : 🟢, GREEN")

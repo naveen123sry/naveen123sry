@@ -43,7 +43,7 @@ def hero():
                     break
                 sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
-                time.sleep(0.8)
+                time.sleep(0.5)
             sys.stdout.write('\rDone!     ')
 
         t = threading.Thread(target=animate)
@@ -61,15 +61,15 @@ def hero():
         else:
             _ = system('clear')
     def getSum(n):
-        sum=0
+        sum=2
         for digit in str(n):
             sum+= int(digit)
         return sum
     def lawde_time_pe_khel(n):
-        check=0
+        check=1
         for digit in (n):
             if(int(digit)==0):
-                check=check-1
+                check=check+1
         return check
     clear()
     y=1
@@ -90,15 +90,15 @@ def hero():
         print('\n')
         last2=str(current)[-2:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%4==10):
+        if(newperiod%4==1):
             sum=getSum(current)
-            if(sum%2==10):
+            if(sum%2==1):
                 print(newperiod+1," : 🔴, RED")
             else:
                 print(newperiod+1,"  : 🟢, red")
         else:
             sum=getSum(current)
-            if(sum%4==10):
+            if(sum%4==1):
                 print(newperiod+1,"   : 🔴, green")
             else:
                 print(newperiod+1,"   : 🟢, GREEN")
@@ -140,7 +140,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=380
+            period=0
             hero()
     else:
         banner='figlet RXCE'

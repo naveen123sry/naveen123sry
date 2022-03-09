@@ -95,13 +95,13 @@ def hero():
             if(sum%2==1):
                 print(newperiod+1," : 🔴, RED")
             else:
-                print(newperiod+1,"  : 🟢, red")
+                print(newperiod+1,"  : 🟢, RED")
         else:
             sum=getSum(current)
             if(sum%4==1):
-                print(newperiod+1,"   : 🔴, green")
+                print(newperiod+1,"   : 🔵, GREEN")
             else:
-                print(newperiod+1,"   : 🟢, GREEN")
+                print(newperiod+1,"   : 🟠, GREEN")
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")

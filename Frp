@@ -84,11 +84,11 @@ def hero():
         def getSum(n):
             sum=0
             for digit in str(n):
-                sum += int(period digit)
+                sum += int(digit)
             return sum
         if i in thisway:
             m=getSum(current)
-            n=int(current)%10
+            n=int(current)%5
             if((m%2==0 and n%20==5) or (m%4==2 and n%4==2)):
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢")

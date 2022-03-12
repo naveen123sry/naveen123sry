@@ -89,7 +89,7 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%11==0 and n%11==0) or (m%11==1 and n%11==1)):
+            if((m%3==0 and n%3==0) or (m%3==1 and n%3==1)):
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢")
                 else:
@@ -158,9 +158,9 @@ if(expirydate>today):
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
         print(" sept 2022, 07:00 AM- 11:30 AM")
-        print(" sept 2022, 02:00 PM- 02:30 PM")
-        print(" Sept 2022, 03:30 PM- 06:00 PM")
-        print(" sept 2022, 07:00 PM- 11:30 PM")
+        print(" sept 2022, 01:00 PM- 11:30 PM")
+        #print(" Sept 2022, 03:30 PM- 06:00 PM")
+        #print(" sept 2022, 07:00 PM- 11:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @Daman Sher Gill ")

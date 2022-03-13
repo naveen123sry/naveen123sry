@@ -93,25 +93,25 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢")
                 else:
-                    print(newperiod+1," : ,🔴RED🔴")
+                    print(newperiod+2," : ,🔴RED🔴")
             else:
                 if current in numbers:
-                    print(newperiod+1," : ,🔴RED🔴")
+                    print(newperiod+4," : ,🔴RED🔴")
                 else:
-                    print(newperiod+1," : ,🟢GREEN🟢")
+                    print(newperiod+3," : ,🟢GREEN🟢")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%5
             if((m%4==4 and n%4==4) or (m%4==4 and n%4==4)):
                 if current in numbers:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+2,": ,🔴RED🔴")
                 else:
                     print(newperiod+1,": ,🟢GREEN🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": ,🟢GREEN🟢")
+                    print(newperiod+3,": ,🟢GREEN🟢")
                 else:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+4,": ,🔴RED🔴")
         i=i+1
         newperiod+=1
         numbers.append(current)

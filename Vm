@@ -89,24 +89,24 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==4 and n%2==5) or (m%3==6 and n%4==7)):
+            if((m%1==1 and n%2==2) or (m%3==3 and n%4==4)):
                 if current in numbers:
-                    print(newperiod+1," : ,🔴RED🔴")
-                else:
                     print(newperiod+1," : ,🟢GREEN🟢")
+                else:
+                    print(newperiod+1," : ,🔴RED🔴")
             else:
                 if current in numbers:
-                    print(newperiod+1," : ,🔴RED🔴")
-                else:
                     print(newperiod+1," : ,🟢GREEN🟢")
+                else:
+                    print(newperiod+1," : ,🔴RED🔴")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%1==4 and n%2==5) or (m%3==6 and n%4==7)):
+            if((m%1==1 and n%2==2) or (m%3==3 and n%4==4)):
                 if current in numbers:
-                    print(newperiod+1,": ,🔴RED🔴")
-                else:
                     print(newperiod+1,": ,🟢GREEN🟢")
+                else:
+                    print(newperiod+1,": ,🔴RED🔴")
             else:
                 if current in numbers:
                     print(newperiod+1,": ,🟢GREEN🟢")

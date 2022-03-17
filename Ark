@@ -89,7 +89,7 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%10==0 and n%10==0) or (m%10==0 and n%10==0)):
+            if((m%2==0 and n%10==0) or (m%1==0 and n%10==0)):
                 if current in numbers:
                     print(newperiod+2," : ,🔴RED🔴1")
                 else:
@@ -102,7 +102,7 @@ def hero():
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%10==0 and n%10==0) or (m%10==0 and n%10==0)):
+            if((m%2==0 and n%10==0) or (m%1==0 and n%10==0)):
                 if current in numbers:
                     print(newperiod+2,": ,🔴RED🔴8")
                 else:

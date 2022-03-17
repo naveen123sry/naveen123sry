@@ -91,9 +91,9 @@ def hero():
             n=int(current)%10
             if((m%10==0 and n%10==0) or (m%10==0 and n%10==0)):
                 if current in numbers:
-                    print(newperiod+1," : ,🔴RED🔴1")
+                    print(newperiod+2," : ,🔴RED🔴1")
                 else:
-                    print(newperiod+1," : ,🔴RED🔴2")
+                    print(newperiod+2," : ,🔴RED🔴2")
             else:
                 if current in numbers:
                     print(newperiod+1," : ,🟢GREEN🟢3")
@@ -104,9 +104,9 @@ def hero():
             n=int(current)%10
             if((m%10==0 and n%10==0) or (m%10==0 and n%10==0)):
                 if current in numbers:
-                    print(newperiod+1,": ,🔴RED🔴")
+                    print(newperiod+2,": ,🔴RED🔴8")
                 else:
-                    print(newperiod+1,": ,🔴RED🔴6")
+                    print(newperiod+2,": ,🔴RED🔴6")
             else:
                 if current in numbers:
                     print(newperiod+1,": ,🟢GREEN🟢7")

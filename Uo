@@ -101,7 +101,7 @@ def hero():
                 else:
                     print(newperiod+2," : RED")
         if i in thatway:
-            m=getSum(current)+2
+            m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
@@ -113,11 +113,11 @@ def hero():
                     print(newperiod+1,": GREEN")
                 else:
                     print(newperiod+1,": GREEN")
-        i=i+2
-        newperiod+=2
+        i=i+1
+        newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
+        if(y==1):
             y=False
         if (len(numbers)>11):
             clear()
@@ -126,7 +126,7 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
             #print(numbers)
-        banner='figlet RXCE_SURYA'
+        banner='figlet RXCE_HACKER'
 
 
 

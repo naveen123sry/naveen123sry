@@ -101,7 +101,7 @@ def hero():
                 else:
                     print(newperiod+2," : RED")
         if i in thatway:
-            m=getSum(current)+1
+            m=getSum(current)+2
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
@@ -113,7 +113,7 @@ def hero():
                     print(newperiod+1,": GREEN")
                 else:
                     print(newperiod+1,": GREEN")
-        i=i+1
+        i=i+2
         newperiod+=2
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")

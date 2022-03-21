@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + n)
+                sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -159,7 +159,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         print("9 Sept 2021, 11:00 AM- 11:30 AM")
         print("9 Sept 2021, 02:00 PM- 02:30 PM")
-        print("9 Sept 2021, 04:00 PM- 05:30 PM")
+        print("9 Sept 2022, 04:00 PM- 05:30 PM")
         #print("9 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
@@ -174,7 +174,7 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----RXCE_HACKER for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  1 Day (40 Games")
-    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print(" 1.     1000 INR -------  18 Day (40 Games")
+    print(" 2.     5000 INR -------  78 Days(280 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")

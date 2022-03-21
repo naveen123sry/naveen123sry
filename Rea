@@ -102,7 +102,7 @@ def hero():
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%4==0 and n%4==0) or (m%1==0 and n%1==0)):
+            if((m%2.5==0 and n%2.5==0) or (m%1.5==0 and n%1.5==0)):
                 if current in numbers:
                     print(newperiod+1,": 💥💥🟢GREEN🟢💥💥")
                 else:

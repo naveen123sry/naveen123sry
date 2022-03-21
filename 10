@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2022, 5, 5)
+expirydate = datetime.date(2022, 10, 11)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -88,8 +88,8 @@ def hero():
             return sum
         if i in thisway:
             m=getSum(current)
-            n=int(current)%1
-            if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1," : RED")
                 else:
@@ -101,8 +101,8 @@ def hero():
                     print(newperiod+1," : RED")
         if i in thatway:
             m=getSum(current)+1
-            n=int(current)%1
-            if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
+            n=int(current)%10
+            if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1,": RED")
                 else:
@@ -150,17 +150,16 @@ if(expirydate>today):
             period=340
             hero()
     elif(False):
-            period=240
+            period=281
             hero()
     else:
         banner='figlet RXCE'
-        print("Hi!! Thanks for buying the hack")
-        #print("Hi! thanks for trying our DEMO")
+        print("Hi!! Thanks for buying the hack"
         print("----------Your play time-----------")
         print("9 Sept 2021, 11:00 AM- 11:30 AM")
         print("9 Sept 2021, 02:00 PM- 02:30 PM")
-        print("9 Sept 2022, 04:00 PM- 05:30 PM")
-        #print("9 Sept 2021, 08:00 PM- 08:30 PM")
+        print("9 Sept 2021, 05:00 PM- 05:30 PM")
+        print("9 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
@@ -172,9 +171,9 @@ else:
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----RXCE_HACKER for activating")
+    print(" on telegram ----@smsn_knt for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  18 Day (40 Games")
-    print(" 2.     5000 INR -------  78 Days(280 Games")
+    print(" 1.     1000 INR -------  1 Day (40 Games")
+    print(" 2.     5000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")

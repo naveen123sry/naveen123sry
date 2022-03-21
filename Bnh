@@ -67,7 +67,7 @@ def hero():
     banner='figlet RXCE V 2.0'
     thisway=[0,2,4,6,8,10,12,14,16,18,20]
     thatway=[1,3,5,7,9,11,13,15,19,]
-    numbers=[12345678910111213141517181920]
+    numbers=[]
     i=1
     while(y):
         clear()

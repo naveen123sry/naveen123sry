@@ -82,21 +82,21 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         def getSum(n):
-            sum=4
+            sum=0
             for digit in str(n):
                 sum += int(digit)
             return sum
         if i in thisway:
             m=getSum(current)
             n=int(current)%20
-            if((m%4==2 and n%4==2) or (m%4==1 and n%4==1)):
+            if((m%4==2 and n%4==2) or (m%4==0 and n%4==0)):
                 if current in numbers:
                     print(newperiod+1," : RED1")
                 else:
-                    print(newperiod+1," : GREEN2")
+                    print(newperiod+1," : RED2")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN3")
+                    print(newperiod+1," : RED3")
                 else:
                     print(newperiod+1," : RED4")
         if i in thatway:
@@ -104,14 +104,14 @@ def hero():
             n=int(current)%20
             if((m%4==2 and n%4==2) or (m%4==1 and n%4==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED5")
+                    print(newperiod+1,": GREEN5")
                 else:
                     print(newperiod+1,": GREEN6")
             else:
                 if current in numbers:
                     print(newperiod+1,": GREEN7")
                 else:
-                    print(newperiod+1,": RED8")
+                    print(newperiod+1,": GREEN8")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -156,7 +156,7 @@ if(expirydate>today):
         banner='figlet RXCE'
         print("Hi!! Thanks for buying the hack") 
         print("----------Your play time-----------")
-        #print("9 Sept 2021, 11:00 AM- 11:30 AM")
+        #print("9 Sept 2022, 09:00 AM- 11:30 AM")
         #print("9 Sept 2021, 02:00 PM- 02:30 PM")
         print("9 Sept 2022, 03:00 PM- 05:30 PM")
         #print("9 Sept 2021, 08:00 PM- 08:30 PM")

@@ -88,12 +88,12 @@ def hero():
             return sum
         if i in thisway:
             m=getSum(current)
-            n=int(current)%5
+            n=int(current)%11
             if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
-                    print(newperiod+1," : GREEN1")
+                    print(newperiod+1," : RED1")
                 else:
-                    print(newperiod+1," : RED2")
+                    print(newperiod+1," : GREEN2")
             else:
                 if current in numbers:
                     print(newperiod+1," : GREEN3")
@@ -101,7 +101,7 @@ def hero():
                     print(newperiod+1," : RED4")
         if i in thatway:
             m=getSum(current)+1
-            n=int(current)%5
+            n=int(current)%11
             if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
                     print(newperiod+1,": RED5")

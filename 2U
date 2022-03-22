@@ -65,8 +65,8 @@ def hero():
     y=1
     newperiod=period
     banner='figlet AMUSEBOX'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
+    thisway=[1,3,4,5,7,9,10,14,13,17]
+    thatway=[2,6,8,11,12,15,16,18,19,20]
     numbers=[]
     i=1
     while(y):
@@ -91,14 +91,14 @@ def hero():
             n=int(current)%10
             if((m%1==0 and n%1==0) or (m%10==0 and n%10==0)):
                 if current in numbers:
-                    print(newperiod+2," : RED1")
+                    print(newperiod+1," : RED1")
                 else:
-                    print(newperiod+2," : RED2")
+                    print(newperiod+1," : RED2")
             else:
                 if current in numbers:
-                    print(newperiod+2," : RED3")
+                    print(newperiod+1," : RED3")
                 else:
-                    print(newperiod+2," : RED4")
+                    print(newperiod+1," : RED4")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10

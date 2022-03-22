@@ -82,7 +82,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         def getSum(n):
-            sum=0
+            sum=1
             for digit in str(n):
                 sum += int(digit)
             return sum

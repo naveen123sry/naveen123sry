@@ -88,8 +88,8 @@ def hero():
             return sum
         if i in thisway:
             m=getSum(current)
-            n=int(current)%8
-            if((m%2==0 and n%2==0)):
+            n=int(current)%100
+            if((m%2==0 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1," : Green 🟢")
                 else:
@@ -101,8 +101,8 @@ def hero():
                     print(newperiod+1," : Green 🟢")
         if i in thatway:
             m=getSum(current)+1
-            n=int(current)%8
-            if((m%2==0 and n%2==0)):
+            n=int(current)%100
+            if((m%2==0 and n%2==1)):
                 if current in numbers:
                     print(newperiod+1,": Green 🟢")
                 else:

@@ -91,12 +91,12 @@ def hero():
             n=int(current)%10
             if((m%1==2 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : Red1 🔴")
+                    print(newperiod+1," : Green1 🟢")
                 else:
                     print(newperiod+1," : Green2 🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1," : Red3 🔴")
+                    print(newperiod+1," : Green3 🟢")
                 else:
                     print(newperiod+1," : Green4 🟢")
         if i in thatway:
@@ -106,7 +106,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": Red5 🔴")
                 else:
-                    print(newperiod+1,": Green6 🟢")
+                    print(newperiod+1,": Red6 🔴")
             else:
                 if current in numbers:
                     print(newperiod+1,": Red7 🔴")

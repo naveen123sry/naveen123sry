@@ -111,7 +111,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": Green 🟢7")
                 else:
-                    print(newperiod+1,": Red 🔴8")
+                    print(newperiod+1,": Green 🟢8")
         i=i+1
         newperiod+=1
         numbers.append(current)

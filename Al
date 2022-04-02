@@ -65,15 +65,15 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE V 2.0'
-    thisway=[1,3,4,5,7,9,10,13,14,17]
-    thatway=[2,6,8,11,12,15,16,18,19,20]
+    thisway=[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29]
+    thatway=[2,4,6,8,10,12,14,16,18,20,22,24,26,28,30]
     numbers=[]
     i=1
     while(y):
         clear()
         system(banner)
         print("Contact me on telegram @tusharma3")
-        print("Enter ",newperiod," Amushbox :")
+        print("Enter ",newperiod," Becone price :")
         current=input()
         current=int(current)
         chalo()
@@ -89,29 +89,29 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==2 and n%2==2) or (m%2==2 and n%2==2)):
+            if((m%2==0 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : Red 🔴")
+                    print(newperiod+1," : Green🟢1")
                 else:
-                    print(newperiod+1," : Red 🔴")
+                    print(newperiod+1," : Red🔴2")
             else:
                 if current in numbers:
                     print(newperiod+1," : Red 🔴")
                 else:
-                    print(newperiod+1," : Red 🔴")
+                    print(newperiod+1," : Green🟢4")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==1 and n%2==1) or (m%2==1 and n%2==1)):
+            if((m%2==0 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": Green 🟢")
+                    print(newperiod+1,": Green🟢5")
                 else:
-                    print(newperiod+1,": Green 🟢")
+                    print(newperiod+1,": Red🔴6")
             else:
                 if current in numbers:
-                    print(newperiod+1,": Green 🟢")
+                    print(newperiod+1,": Red🔴7")
                 else:
-                    print(newperiod+1,": Green 🟢")
+                    print(newperiod+1,": Green🟢8")
         i=i+1
         newperiod+=1
         numbers.append(current)

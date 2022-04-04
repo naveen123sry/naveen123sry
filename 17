@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @tusharma3")
-        print("Enter ",newperiod," Becone price :")
+        print("Enter ",newperiod," Emerd Price :")
         current=input()
         current=int(current)
         chalo()
@@ -99,9 +99,9 @@ def hero():
             n=int(current)%10
             if((m%1==0)):
                 if current in numbers:
-                    print(newperiod+1,": Red🔴3")
+                    print(newperiod+1,": Green🟢3")
                 else:
-                    print(newperiod+1,": Green🟢4")
+                    print(newperiod+1,": Red🔴4")
 
         i=i+1
         newperiod+=1

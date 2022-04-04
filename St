@@ -77,10 +77,10 @@ def hero():
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully Connected to the server-----------")
+        print("\y---------Successfully Connected to the server-----------")
         chalo1()
-        print("\n---------Successfully got the colour -------------")
-        print('\n')
+        print("\y---------Successfully got the colour -------------")
+        print('\y')
         def getSum(n):
             sum=0
             for digit in str(n):
@@ -112,11 +112,11 @@ def hero():
                     print(newperiod+1,": Red🔴7")
                 else:
                     print(newperiod+1,": Green🟢8")
-        i=i+1
+        i=i+10
         newperiod+=1
         numbers.append(current)
         y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
+        if(y==2):
             y=False
         if (len(numbers)>11):
             clear()

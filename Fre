@@ -93,7 +93,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1," : Green🟢1")
                 else:
-                    print(newperiod+1," : Green🟢2")
+                    print(newperiod+1," : Red🔴2")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
@@ -101,7 +101,7 @@ def hero():
                 if current in numbers:
                     print(newperiod+1,": Red🔴3")
                 else:
-                    print(newperiod+1,": Red🔴4")
+                    print(newperiod+1,": Green🟢4")
 
         i=i+1
         newperiod+=1

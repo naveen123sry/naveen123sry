@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," EMERD Price :")
         current=input()
         current=int(current)
         chalo()
@@ -90,27 +90,27 @@ def hero():
         if i in thisway:
             m=getSum(current)
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
+            if((m%1==0 and n%1==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
-                    print(newperiod+2," : RED")
+                    print(newperiod+2," : GREEN")
                 else:
                     print(newperiod+2," : RED")
             else:
                 if current in numbers:
                     print(newperiod+2," : RED")
                 else:
-                    print(newperiod+2," : RED")
+                    print(newperiod+2," : GREEN")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
-            if((m%2==0 and n%2==0) or (m%1==0 and n%1==0)):
+            if((m%1==0 and n%1==0) or (m%1==0 and n%1==0)):
                 if current in numbers:
                     print(newperiod+1,": GREEN")
                 else:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": RED")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": RED")
                 else:
                     print(newperiod+1,": GREEN")
         i=i+1

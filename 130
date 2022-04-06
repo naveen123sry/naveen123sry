@@ -92,27 +92,27 @@ def hero():
             n=int(current)%10
             if((m%1==0 and n%1==1) or (m%2==1 and n%2==0)):
                 if current in numbers:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : RED1")
                 else:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : GREEN2")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN")
+                    print(newperiod+1," : GREEN3")
                 else:
-                    print(newperiod+1," : RED")
+                    print(newperiod+1," : RED4")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==1 and n%2==0) or (m%1==0 and n%1==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": RED5")
                 else:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": GREEN6")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": GREEN7")
                 else:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": RED8")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -160,7 +160,7 @@ if(expirydate>today):
         print("----------⌛Your play time⌛----------")
         print("19  Oct 2022, 08:00 AM- 11:30 AM")
         print("19  Oct 2022, 02:00 PM- 03:00 PM")
-        print("19  Oct 2022, 04:00 PM- 06:00 PM")
+        print("19  Oct 2022, 03:05 PM- 06:00 PM")
         print("19  Oct 2022, 07:00 PM- 11:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")

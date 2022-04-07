@@ -92,27 +92,27 @@ def hero():
             n=int(current)%10
             if((m%1==0 and n%1==1) or (m%2==1 and n%2==0)):
                 if current in numbers:
-                    print(newperiod+1," : RED1")
+                    print(newperiod+1," : GREEN🟢1")
                 else:
-                    print(newperiod+1," : RED2")
+                    print(newperiod+1," : GREEN🟢2")
             else:
                 if current in numbers:
-                    print(newperiod+1," : RED3")
+                    print(newperiod+1," : GREEN🟢3")
                 else:
-                    print(newperiod+1," : RED4")
+                    print(newperiod+1," : GREEN🟢4")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==1 and n%2==0) or (m%1==0 and n%1==1)):
                 if current in numbers:
-                    print(newperiod+1,": GREEN5")
+                    print(newperiod+1,": RED🔴5")
                 else:
-                    print(newperiod+1,": GREEN6")
+                    print(newperiod+1,": RED🔴6")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN7")
+                    print(newperiod+1,": RED🔴7")
                 else:
-                    print(newperiod+1,": GREEN8")
+                    print(newperiod+1,": RED🔴8")
         i=i+1
         newperiod+=1
         numbers.append(current)

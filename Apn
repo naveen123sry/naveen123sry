@@ -91,25 +91,25 @@ def hero():
             n=int(current)%10
             if((m%10==1 and n%2==1) or (m%10==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+2," : ,🔴RED🔴1")
+                    print(newperiod+1," : ,🟢GREEN🟢1")
                 else:
-                    print(newperiod+2," : ,🔴RED🔴2")
+                    print(newperiod+1," : ,🔴RED🔴2")
             else:
                 if current in numbers:
-                    print(newperiod+2," : ,🔴RED🔴3")
+                    print(newperiod+1," : ,🔴RED🔴3")
                 else:
-                    print(newperiod+2," : ,🔴RED🔴4")
+                    print(newperiod+1," : ,🟢GREEN🟢4")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%10==1 and n%2==1) or (m%10==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+2,": ,🟢GREEN🟢5")
+                    print(newperiod+2,": ,🔴RED🔴5")
                 else:
                     print(newperiod+1,": ,🟢GREEN🟢6")
             else:
                 if current in numbers:
-                    print(newperiod+1,": ,🟢GREEN🟢7")
+                    print(newperiod+1,": ,🔴RED🔴7")
                 else:
                     print(newperiod+1,": ,🟢GREEN🟢 8")
         i=i+1

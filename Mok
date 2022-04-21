@@ -65,8 +65,8 @@ def hero():
     y=1
     newperiod=period
     banner='figlet RXCE V 2.0'
-    thisway=[58566,19522,58560,39044, 78088]
-    thatway=[9761,29283,48805,68327,87849]
+    thisway=[66,22,60,44, 88]
+    thatway=[61,83,05,27,49]
     numbers=[]
     i=1
     while(y):
